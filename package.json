@@ -1,0 +1,18 @@
+{
+  "name": "legal-audio-matter-intake",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/matter-intake.ts",
+    "test": "node --test src/matter-intake.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "openai": "^4.80.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "typescript": "^5.7.2"
+  }
+}

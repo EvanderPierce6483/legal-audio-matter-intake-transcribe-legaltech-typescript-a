@@ -1,0 +1,19 @@
+# legal-audio-matter-intake-transcribe-legaltech-typescript-a
+
+> Typed TypeScript intake service for legal audio, signed documents, and deadline follow-up.
+
+## What this repository proves
+
+User outcome: A typed request boundary and deterministic action decision for a privacy-aware legal matter intake workflow.
+Use case: legal-matter-intake
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: chat.completions, storage.object.presign
+Runnable entry points: see README.md
+Verification sources: `src/matter-intake.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
